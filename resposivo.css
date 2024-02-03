@@ -1,0 +1,38 @@
+@media (min-width:2560px) {
+    .questao_hover {
+        height: 120px !important;
+    }
+    .questions .question  p {
+        transition: all 0.5s ease-in-out;
+        margin: 0;
+        display: flex;
+        overflow: hidden;
+        text-align: start;
+        /* border: 2px solid sandybrown; */
+        font-family: WorkSans-Regular;
+        font-size: 24px;
+        height: 0px;
+    }
+    .questions .question h2 {
+        font-size: 25px;
+    }
+}
+
+
+
+@media (max-width:1024px) {
+    .questao_hover {
+        height: 120px !important;
+    }
+}
+
+@media (max-width:768px) {
+    .questao_hover {
+        height: 100% !important;
+    }
+
+    .container {
+        width: 60%;
+    }
+}
+

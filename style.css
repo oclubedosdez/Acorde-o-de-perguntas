@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./assets/images/background-pattern-desktop.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsl(275, 100%, 97%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    transition: all 0.5s ease-in-out;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40%;
+    margin-top: 2rem;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.container .titulo {
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.container .titulo h1 {
+    font-family: WorkSans-Bold;
+    font-size: 40px;
+}
+.container .questions {
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.questions .question {
+    transition: all 0.5s ease-in-out;
+    /* border: 2px solid goldenrod; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-family: WorKSans-SemiBold;
+    font-size: 70%;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.336);
+}
+.questions .question h2 {
+    /* border: 1px solid red; */
+    text-align: start;
+}
+
+
+.questions .question .pergunta {
+    transition: all 0.2s ease-in-out;
+    /* border: 1px solid maroon; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.questions .question .pergunta:hover {
+    color: rgb(134, 38, 212);
+}
+
+.questions .question  p {
+    transition: all 0.5s ease-in-out;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    text-align: start;
+    /* border: 2px solid sandybrown; */
+    font-family: WorkSans-Regular;
+    font-size: 16px;
+    height: 0px;
+}
+
+.questao_hover {
+    height: 80px !important;
+}
+.active {
+    color: rgb(134, 38, 212);
+}
